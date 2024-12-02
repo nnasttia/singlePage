@@ -1,0 +1,38 @@
+@use 'sass:math';
+@use "sass:map";
+
+@function rem($px) {
+  $sum: math.div($px, 14);
+  $result: math.div(round($sum * 1000), 1000);
+  @return $result + rem;
+}
+
+/////////////////////////////
+
+@mixin transition {
+  transition: all .4s ease-in-out;
+}
+
+@mixin clearfix {
+  &::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+}
+
+@mixin border($place, $color, $width) {
+  @if $place == 'all' {
+    border: $width solid $color;
+  } @else {
+    border-#{$place}: $width solid $color;
+  }
+}
+
+@mixin input-placeholder {
+  &.placeholder { @content; }
+  &:-moz-placeholder { @content; }
+  &::-moz-placeholder { @content; }
+  &:-ms-input-placeholder { @content; }
+  &::-webkit-input-placeholder { @content; }
+}

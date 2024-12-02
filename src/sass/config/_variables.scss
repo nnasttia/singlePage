@@ -1,0 +1,22 @@
+:root {
+  accent-color: #16c0f0;
+  --font-family: 'Open Sans', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;
+
+  --white: #fff;
+  --black: #000;
+  --primary: #16c0f0;
+  --secondary: #2b3d4f;
+
+  --header: 6rem;
+  --footer: 3rem;
+  //--content: calc(100vh - (var(--header) + var(--footer)));
+  --content: calc(100vh - var(--header));
+}
+
+$smartphone: 360px;
+$screen-xs-m: 410px;
+$screen-sm: 639px;
+$tabletPortrait: 768px;
+$tabletLandscape: 992px;
+$desktop: 1200px;

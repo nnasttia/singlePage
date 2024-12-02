@@ -1,0 +1,91 @@
+///////// generating class .w-
+
+$p: "%";
+
+@for $i from 1 through 100 {
+  .w-#{$i} {
+    width: $i + #{$p};
+  }
+}
+
+@media all and (min-width: $tabletPortrait) {
+  @for $i from 1 through 100 {
+    .w-md-#{$i} {
+      width: $i + #{$p};
+    }
+  }
+}
+
+/************ indents **********/
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.m-0 {
+  margin: 0 !important;
+}
+
+///////// generating  class .mt-
+
+@for $i from 1 through 50 {
+  .mt-#{$i} {
+    margin-top: rem($i);
+  }
+}
+
+///////// generating  class .ml-
+
+@for $i from 1 through 50 {
+  .ml-#{$i} {
+    margin-left: rem($i);
+  }
+}
+
+///////// generating  class .mr-
+
+@for $i from 1 through 50 {
+  .mr-#{$i} {
+    margin-right: rem($i);
+  }
+}
+
+///////// generating  class .mb-
+
+@for $i from 1 through 50 {
+  .mb-#{$i} {
+    margin-bottom: rem($i);
+  }
+}
+
+///////// generating  class .pt-
+
+@for $i from 1 through 50 {
+  .pt-#{$i} {
+    padding-top: rem($i);
+  }
+}
+
+///////// generating  class .pl-
+
+@for $i from 1 through 50 {
+  .pl-#{$i} {
+    padding-left: rem($i);
+  }
+}
+
+///////// generating  class .pr-
+
+@for $i from 1 through 50 {
+  .pr-#{$i} {
+    padding-right: rem($i);
+  }
+}
+
+///////// generating  class .pb-
+
+@for $i from 1 through 50 {
+  .pb-#{$i} {
+    padding-bottom: rem($i);
+  }
+}
