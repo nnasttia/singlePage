@@ -1,0 +1,42 @@
+/*------------------------------------------------------------------
+CSS
+-------------------------------------------------------------------*/
+
+@charset "UTF-8";
+
+//Сonfig
+@import "config/mixins";
+@import "config/variables";
+@import "config/general-markup";
+
+// Base
+@import "base/typography";
+@import "base/markup";
+@import "base/background";
+@import "base/base";
+@import "base/header-footer";
+
+// Partials
+@import "partials/form-elements";
+@import "partials/elements";
+
+// Pages
+@import "pages/index";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

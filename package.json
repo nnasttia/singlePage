@@ -1,0 +1,32 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "Demo project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Khaya",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^6.0.0",
+    "gulp-sass-bulk-importer": "^3.0.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "http-server": "^14.1.1",
+    "pug": "^3.0.3",
+    "require-dir": "^1.2.0",
+    "sass": "^1.83.1",
+    "wizard": "^2.0.0",
+    "workbox-cli": "^7.3.0"
+  },
+  "dependencies": {
+    "braces": "^3.0.3",
+    "gulp-pug": "^5.0.0",
+    "jquery": "^3.7.1"
+  }
+}
